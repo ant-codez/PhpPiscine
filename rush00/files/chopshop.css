@@ -1,0 +1,121 @@
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	background-color: azure;
+}
+
+h1 {
+	margin: 15px;
+	font-size: 250%;
+}
+
+.panel {
+	background-color: #ccffff;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 10px;
+}
+
+
+.form-button {
+	text-align: center;
+	margin: 20px;
+}
+
+.header, .footer{
+	background-color: #008080;
+	border-radius: 15px;
+	width: 100%;
+}
+
+.footer{
+	text-align: center;
+}
+.header img{
+	width: 75px;
+	height: 75px;
+	margin: 5px;
+}
+
+.header h1{
+	position: absolute;
+	left: 500px;
+	top: 25px;
+}
+.flex-container{
+	display: flex;
+	flex-wrap: nowrap;
+	float: right;
+	margin: 10px;
+}
+
+#header {
+	background-color: azure;
+}
+
+#navlist {
+	position: relative;
+}
+
+#navlist li {
+	display: inline-block;
+	border-radius: 5px;
+	background-color: #33ffff;
+}
+
+#navlist li:hover {
+	background-color: #ff9696;
+}
+
+#cartdiv {
+	display: inline-block;
+}
+
+#cartdiv:hover #cart {
+	display: inline-block;
+}
+
+h2 {
+	padding: 3px;
+	margin: 10px;
+	font-size: 120%;
+}
+
+#cart {
+	display: none;
+	position: absolute;
+	margin: 0;
+	z-index: 1;
+	background-color: #ff9696;
+}
+
+#user-info {
+	display: none;
+	position: absolute;
+	margin: 0;
+	z-index: 1;
+	background-color: #ff9696;
+}
+
+#categories {
+	text-align: center;
+}
+
+.category {
+	display: inline-block;
+	text-align: center;
+	margin: 20px;
+}
+
+#items {
+	text-align: center;
+}
+
+.item {
+	display: inline-block;
+	text-align: center;
+	margin: 20px;
+}
+
+.delButton{
+	font-size: 35px;
+}
