@@ -63,7 +63,15 @@
 		public function getW()
 		{
 			return $this->_w;
-		}
+                }
+                public function getColor()
+                {
+                    return $this->_color;
+                }
+                public function setColor($color)
+                {
+                    $this->_color = $color;
+                }
 	}
 
 ?>
