@@ -36,5 +36,4 @@ instance and $v.
 
 Vector crossProduct( Vector $rhs ) : return the cross product
 (right handed set) of the current instance and $v
----------------------------------------------------------------------- Vector ->~
-~
+---------------------------------------------------------------------- Vector ->

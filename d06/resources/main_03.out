@@ -54,7 +54,7 @@ M | vtcX | vtcY | vtcZ | vtxO
 x | 1.00 | 0.00 | 0.00 | 0.00
 y | -0.00 | 1.00 | 0.00 | 0.00
 z | 0.00 | 0.00 | 1.00 | 0.00
-w | 0.00 | 0.00 | 0.00 | 1.00
+w| 0.00 | 0.00 | 0.00 | 1.00
 
 The bad guy now, the projection matrix : 3D to 2D !
 The values are arbitray. We'll decipher them in the next exercice.
